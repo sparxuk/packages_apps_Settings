@@ -35,7 +35,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.utils.SettingsDividerItemDecoration;
 import com.android.setupwizardlib.GlifPreferenceLayout;
 
-import org.lineageos.internal.logging.LineageMetricsLogger;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
 public class ChooseLockPatternSize extends PreferenceActivity {
 
@@ -145,7 +145,7 @@ public class ChooseLockPatternSize extends PreferenceActivity {
 
         @Override
         public int getMetricsCategory() {
-            return LineageMetricsLogger.CHOOSE_LOCK_PATTERN_SIZE;
+            return MetricsEvent.CHOOSE_LOCK_PATTERN;
         }
     }
 }
