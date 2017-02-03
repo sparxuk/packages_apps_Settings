@@ -180,4 +180,5 @@ public class Settings extends SettingsActivity {
     // omni additions start
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
 
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
