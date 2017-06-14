@@ -146,6 +146,10 @@
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
 
+    <!-- Changelog -->
+    <string name="changelog_validus_title">Changelog</string>
+    <string name="changelog_validus_error">Unable to load changelog</string>
+
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">Lower brightness if Night Light</string>
     <string name="night_auto_value_disabled">Disabled</string>
