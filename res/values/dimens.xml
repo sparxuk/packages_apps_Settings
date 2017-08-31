@@ -330,6 +330,6 @@
     <dimen name="reset_checkbox_title_text_size">18sp</dimen>
     <dimen name="reset_checkbox_summary_text_size">14sp</dimen>
 
-    <dimen name="icon_space_reserved_padding">72dp</dimen>
+    <dimen name="icon_space_reserved_padding">24dp</dimen>
 
 </resources>
