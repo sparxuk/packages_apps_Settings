@@ -52,6 +52,7 @@ import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreference
 import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
 import com.android.settings.deviceinfo.ROMVersionPreferenceController;
+import com.android.settings.deviceinfo.DeviceMaintainerPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.EntityHeaderController;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -132,6 +133,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(
                 new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
         controllers.add(new ROMVersionPreferenceController(context));
+        controllers.add(new DeviceMaintainerPreferenceController(context));
         controllers.add(new SELinuxStatusPreferenceController(context));
         return controllers;
     }

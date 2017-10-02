@@ -36,6 +36,7 @@ import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settings.deviceinfo.ROMVersionPreferenceController;
+import com.android.settings.deviceinfo.DeviceMaintainerPreferenceController;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -139,6 +140,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new FeedbackPreferenceController(fragment, context));
         controllers.add(new FccEquipmentIdPreferenceController(context));
         controllers.add(new ROMVersionPreferenceController(context));
+        controllers.add(new DeviceMaintainerPreferenceController(context));
         controllers.add(
                 new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
         return controllers;
