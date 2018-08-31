@@ -104,6 +104,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import com.gzr.wolvesden.OmniJawsSettings;
+import com.gzr.wolvesden.interfacesettings.LockscreenItemSettings;
 
 public class SearchIndexableResourcesImpl implements SearchIndexableResources {
 
@@ -196,6 +197,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
         addIndex(OmniJawsSettings.class);
+        addIndex(LockscreenItemSettings.class);
     }
 
     @Override

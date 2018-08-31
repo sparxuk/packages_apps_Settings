@@ -140,6 +140,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.gzr.wolvesden.WolvesDen;
 import com.gzr.wolvesden.OmniJawsSettings;
+import com.gzr.wolvesden.interfacesettings.LockscreenItemSettings;
 
 public class SettingsGateway {
 
@@ -268,6 +269,7 @@ public class SettingsGateway {
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             WolvesDen.class.getName(),
             OmniJawsSettings.class.getName(),
+            LockscreenItemSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
