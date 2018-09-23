@@ -48,4 +48,10 @@ public class AmbientDisplayCustomPreferenceController extends AbstractPreference
     public boolean isAvailable() {
         return GzospUtils.isPackageInstalled(mContext.getApplicationContext(), PACKAGE_CUSTOM_DOZE);
     }
+
+    @Override
+    public void updateState(Preference preference) {
+        super.updateState(preference);
+        preference.setSummary(R.string.custom_ambient_display_summary);
+    }
 }

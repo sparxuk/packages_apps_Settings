@@ -52,6 +52,10 @@
     <!-- Navigation bar -->
     <string name="navigation_bar_title">Navigation bar</string>
     <string name="navigation_bar_title_summary">Enable on-screen navigation keys</string>
+    
+    <!-- Ambient category -->
+    <string name="ambient_display_category">Ambient options</string>
+    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
 
     <!-- Display cutout options -->
     <string name="cutout_main">Display cutout settings</string>
