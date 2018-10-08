@@ -181,4 +181,7 @@
     <string name="location_mode_battery_saving_title">Battery saving mode</string>
     <string name="location_mode_battery_saving_summary">You can turn GPS off using this setting. As a result, your exact location will be unknown.</string>
 
+    <!-- Toolbar -->
+    <string name="settings_head_title">GzR Settings</string>
+
 </resources>
