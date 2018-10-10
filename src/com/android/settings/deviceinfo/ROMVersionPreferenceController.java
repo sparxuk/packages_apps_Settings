@@ -27,7 +27,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 
 public class ROMVersionPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin {
-            
+
     private static final String PROPERTY_VALIDUS_VERSION = "ro.validus.version";
     private static final String KEY_VALIDUS_VERSION = "modversion";
 
@@ -54,4 +54,3 @@ public class ROMVersionPreferenceController extends AbstractPreferenceController
         pref.setSummary(version);
     }
 }
-
