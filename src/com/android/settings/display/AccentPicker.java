@@ -170,7 +170,7 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.GZOSP;
+        return MetricsProto.MetricsEvent.VALIDUS;
     }
 
     private void setAccent(final String accent, final Button buttonAccent) {
