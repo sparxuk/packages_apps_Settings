@@ -137,6 +137,12 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+	<Preference
+        android:key="cutout_settings"
+        android:title="@string/cutout_main"
+        android:summary="@string/cutout_main_summary"
+        android:fragment="com.android.settings.gzosp.CutoutFragment" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/color_theme"
@@ -149,7 +155,6 @@
         <Preference
             android:key="accent_picker"
             android:title="@string/theme_accent_picker_title" />
-     
     </PreferenceCategory>
 
     <Preference
