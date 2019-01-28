@@ -140,7 +140,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.gzr.wolvesden.WolvesDen;
 import com.gzr.wolvesden.OmniJawsSettings;
-import com.gzr.wolvesden.interfacesettings.LockscreenItemSettings;
+import com.gzr.wolvesden.LockscreenItemSettings;
 
 public class SettingsGateway {
 

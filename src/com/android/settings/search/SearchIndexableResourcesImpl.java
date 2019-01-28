@@ -104,7 +104,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import com.gzr.wolvesden.OmniJawsSettings;
-import com.gzr.wolvesden.interfacesettings.LockscreenItemSettings;
+import com.gzr.wolvesden.LockscreenItemSettings;
 
 public class SearchIndexableResourcesImpl implements SearchIndexableResources {
 
