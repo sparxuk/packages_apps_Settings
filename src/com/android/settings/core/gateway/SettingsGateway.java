@@ -139,8 +139,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.gzr.wolvesden.WolvesDen;
-import com.gzr.wolvesden.OmniJawsSettings;
-import com.gzr.wolvesden.LockscreenItemSettings;
+import com.gzr.wolvesden.fragments.OmniJawsSettings;
+import com.gzr.wolvesden.fragments.LockscreenItemSettings;
 
 public class SettingsGateway {
 
