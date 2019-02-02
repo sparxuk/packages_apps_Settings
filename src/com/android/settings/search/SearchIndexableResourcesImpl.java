@@ -103,8 +103,8 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.gzr.wolvesden.OmniJawsSettings;
-import com.gzr.wolvesden.LockscreenItemSettings;
+import com.gzr.wolvesden.fragments.OmniJawsSettings;
+import com.gzr.wolvesden.fragments.LockscreenItemSettings;
 
 public class SearchIndexableResourcesImpl implements SearchIndexableResources {
 
