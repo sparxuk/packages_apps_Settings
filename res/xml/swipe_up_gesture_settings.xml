@@ -34,6 +34,7 @@
         app:controller="com.android.settings.gestures.SwipeUpPreferenceController"
         app:allowDividerAbove="true" />
 
+<!--
     <SwitchPreference
         android:key="full_gesture_mode"
         android:title="@string/full_gesture_mode_title"
@@ -49,4 +50,6 @@
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.SwipeUpPreferenceController"
         app:allowDividerAbove="true" />
+-->
+
 </PreferenceScreen>
