@@ -3365,7 +3365,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.gzr.wolvesden.OmniJawsSettings" />
+                android:value="com.gzr.wolvesden.fragments.OmniJawsSettings" />
         </activity>
     </application>
 </manifest>
