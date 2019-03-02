@@ -70,9 +70,9 @@ public class DisplaySettings extends DashboardFragment {
         @Override
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
-            if (action.equals("com.android.server.ACTION_FONT_CHANGED")) {
-                mFontPickerPreference.stopProgress();
-            }
+            //if (action.equals("com.android.server.ACTION_FONT_CHANGED")) {
+               // mFontPickerPreference.stopProgress();
+           // }
         }
     };
 
@@ -95,7 +95,7 @@ public class DisplaySettings extends DashboardFragment {
         super.onPause();
         final Context context = getActivity();
         context.unregisterReceiver(mIntentReceiver);
-        mFontPickerPreference.stopProgress();
+        //mFontPickerPreference.stopProgress();
     }
 
     @Override
