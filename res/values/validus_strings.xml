@@ -18,7 +18,7 @@
     <!-- Validus version -->
     <string name="rom_version_title">ValidusOs version</string>
 
-    <string name="wolvesden_settings_activity">WolvesDen</string>
+    <string name="wolvesden_settings_activity">Wolves\' Den</string>
     <string name="wolvesden_settings_activity_summary">Additional project settings</string>
 
     <!-- MSIM Manual provisioning -->
