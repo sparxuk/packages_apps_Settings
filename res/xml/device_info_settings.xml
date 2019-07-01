@@ -70,10 +70,10 @@
     <Preference
         android:key="translator"
         android:title="@string/changelog_validus_title"
-        android:summary="ROM latest changes, know what you get!" >
+        android:summary="ROM latest changes" >
         <intent
         android:action="android.intent.action.VIEW"
-        android:data="https://raw.githubusercontent.com/ValidusOs/vendor_validus/8.1/Changelog_Validus.txt" />
+        android:data="https://raw.githubusercontent.com/ValidusOs/vendor_validus/9.0/Changelog_Validus.txt" />
     </Preference>
 
     <!--IP address -->
