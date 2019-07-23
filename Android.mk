@@ -33,6 +33,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v7-preference \
     android-support-v7-recyclerview \
     android-support-v14-preference \
+    android-support-design
 
 LOCAL_JAVA_LIBRARIES := \
     bouncycastle \
@@ -62,6 +63,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v17.preference \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
+    --extra-packages android.support.design \
     --extra-packages com.gzr.wolvesden
 
 ifneq ($(INCREMENTAL_BUILDS),)
