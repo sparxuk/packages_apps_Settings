@@ -43,7 +43,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:text="@string/settings_label"
-                android:textColor="?android:attr/textColorPrimary"
+                android:textColor="@*android:color/accent_device_default_light"
                 android:textSize="32sp"
                 android:textStyle="bold" />
 				
