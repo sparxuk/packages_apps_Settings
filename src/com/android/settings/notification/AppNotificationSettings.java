@@ -122,15 +122,6 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     }
 
     @Override
-    public void onPause() {
-        super.onPause();
-        final Window window = getActivity().getWindow();
-        final WindowManager.LayoutParams attrs = window.getAttributes();
-        attrs.privateFlags &= ~PRIVATE_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS;
-        window.setAttributes(attrs);
-    }
-
-    @Override
     protected String getLogTag() {
         return TAG;
     }
@@ -155,6 +146,10 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     @Override
     public void onPause() {
         super.onPause();
+        final Window window = getActivity().getWindow();
+        final WindowManager.LayoutParams attrs = window.getAttributes();
+        attrs.privateFlags &= ~PRIVATE_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS;
+        window.setAttributes(attrs);
         mNm.forcePulseLedLight(-1, -1, -1);
     }
 
