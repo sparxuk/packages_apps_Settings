@@ -100,12 +100,33 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
+import com.gzr.wolvesden.fragments.AudioPanelSettings;
+import com.gzr.wolvesden.fragments.BatteryLightSettings;
+//import com.gzr.wolvesden.fragments.ButtonSettings;
+import com.gzr.wolvesden.fragments.CarrierLabel;
+import com.gzr.wolvesden.fragments.ClockOptions;
+import com.gzr.wolvesden.fragments.DoubleTapLockscreen;
+import com.gzr.wolvesden.fragments.FingerprintSettings;
+//import com.gzr.wolvesden.fragments.GestureSettings;
+import com.gzr.wolvesden.fragments.LedSettings;
+import com.gzr.wolvesden.fragments.LockScreenClock;
+import com.gzr.wolvesden.fragments.LockscreenItemSettings;
+import com.gzr.wolvesden.fragments.LockScreenSettings;
+import com.gzr.wolvesden.fragments.OmniJawsSettings;
+import com.gzr.wolvesden.fragments.PowerMenu;
+import com.gzr.wolvesden.fragments.QsRowsColumns;
+//import com.gzr.wolvesden.fragments.QsTileStyles;
+import com.gzr.wolvesden.fragments.ScreenOffAnimations;
+import com.gzr.wolvesden.fragments.SmartPixels;
+import com.gzr.wolvesden.fragments.SmartPulldown;
+import com.gzr.wolvesden.fragments.StatusBarBatterySettings;
+import com.gzr.wolvesden.fragments.StatusBarLogoSettings;
+import com.gzr.wolvesden.fragments.StyleSettings;
+import com.gzr.wolvesden.fragments.SuspendActions;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
-
-import com.gzr.wolvesden.fragments.OmniJawsSettings;
-import com.gzr.wolvesden.fragments.LockscreenItemSettings;
 
 public class SearchIndexableResourcesImpl implements SearchIndexableResources {
 
@@ -198,8 +219,31 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(RecentLocationRequestSeeAllFragment.class);
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
-        addIndex(OmniJawsSettings.class);
+        //Wolvesden
+        addIndex(AudioPanelSettings.class);
+        addIndex(BatteryLightSettings.class);
+        //addIndex(ButtonSettings.class);
+        addIndex(CarrierLabel.class);
+        addIndex(ClockOptions.class);
+        addIndex(DoubleTapLockscreen.class);
+        addIndex(FingerprintSettings.class);
+        //addIndex(GestureSettings.class);
+        addIndex(LedSettings.class);
+        addIndex(LockScreenClock.class);
         addIndex(LockscreenItemSettings.class);
+        addIndex(LockScreenSettings.class);
+        addIndex(OmniJawsSettings.class);
+        addIndex(PowerMenu.class);
+        addIndex(QsRowsColumns.class);
+        //addIndex(QsTileStyles.class);
+        addIndex(ScreenOffAnimations.class);
+        addIndex(SmartPixels.class);
+        addIndex(SmartPulldown.class);
+        addIndex(StatusBarBatterySettings.class);
+        addIndex(StatusBarLogoSettings.class);
+        addIndex(StyleSettings.class);
+        addIndex(SuspendActions.class);
+
     }
 
     @Override
