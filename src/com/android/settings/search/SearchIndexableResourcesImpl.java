@@ -111,7 +111,7 @@ import com.gzr.wolvesden.fragments.FingerprintSettings;
 import com.gzr.wolvesden.fragments.LedSettings;
 import com.gzr.wolvesden.fragments.LockScreenClock;
 import com.gzr.wolvesden.fragments.LockscreenItemSettings;
-import com.gzr.wolvesden.fragments.LockScreenSettings;
+//import com.gzr.wolvesden.fragments.LockScreenSettings;
 import com.gzr.wolvesden.fragments.OmniJawsSettings;
 import com.gzr.wolvesden.fragments.PowerMenu;
 import com.gzr.wolvesden.fragments.QsRowsColumns;
@@ -231,7 +231,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(LedSettings.class);
         addIndex(LockScreenClock.class);
         addIndex(LockscreenItemSettings.class);
-        addIndex(LockScreenSettings.class);
+        //addIndex(LockScreenSettings.class);
         addIndex(OmniJawsSettings.class);
         addIndex(PowerMenu.class);
         addIndex(QsRowsColumns.class);
