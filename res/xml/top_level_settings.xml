@@ -21,6 +21,15 @@
     android:key="top_level_settings">
 
     <Preference
+        android:key="top_level_funhouse"
+        android:title="@string/funhouse_settings_activity"
+        android:summary="@string/funhouse_settings_activity_summary"
+        android:icon="@drawable/ic_settings_funhouse"
+        android:order="-130"
+        android:fragment="com.gzr.funhouse.FunHouse"
+        settings:controller="com.gzr.funhouse.TopLevelFunHouseEntryPreferenceController" />
+
+    <Preference
         android:key="top_level_network"
         android:title="@string/network_dashboard_title"
         android:summary="@string/summary_placeholder"

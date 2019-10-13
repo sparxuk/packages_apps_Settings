@@ -3278,7 +3278,7 @@
         <activity android:name=".Settings$FunHouseActivity"
                   android:label="@string/funhouse_settings_activity"
                   android:icon="@drawable/ic_settings_funhouse">
-            <intent-filter android:priority="12">
+            <intent-filter>
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
