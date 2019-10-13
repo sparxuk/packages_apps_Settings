@@ -44,6 +44,7 @@ import com.android.settings.security.LockscreenDashboardFragment;
 import com.android.settings.security.SecuritySettings;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
+import com.gzr.funhouse.FunHouse;
 
 import java.util.Map;
 
@@ -116,7 +117,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_MY_DEVICE_INFO);
         PARENT_TO_CATEGORY_KEY_MAP.put(BatterySaverSettings.class.getName(),
                 CategoryKey.CATEGORY_BATTERY_SAVER_SETTINGS);
-
+        PARENT_TO_CATEGORY_KEY_MAP.put(FunHouse.class.getName(),
+                CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 
         for (Map.Entry<String, String> parentToKey : PARENT_TO_CATEGORY_KEY_MAP.entrySet()) {
