@@ -14,6 +14,6 @@
 <resources>
 
     <!-- Validus Settings icon -->
-    <color name="homepage_validus_background">#009688</color>
+    <color name="homepage_validus_background">#b71c1c</color>
 
 </resources>
